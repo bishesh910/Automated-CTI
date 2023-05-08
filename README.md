@@ -20,9 +20,11 @@ Change the file ./Bee.Automated and ./src/ipchecker to executable
    chmod +x src/ipchecker
 ```
 
-1. Configure Your Virus Total API key in the 'config.ini' file.
+1. Configure Your Virus Total and AbuseIPDB API key in the 'config.ini' file.
 
-2. Set the threshold level. 
+2. Set the threshold level for Virustotal malicious count and abuseIPDB confidence score
+
+3. Set The maxAgeInDays. 
 
 File format something like this.
 ```bash
