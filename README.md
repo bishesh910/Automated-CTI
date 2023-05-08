@@ -26,12 +26,25 @@ Change the file ./Bee.Automated and ./src/ipchecker to executable
 
 File format something like this.
 ```bash
-[API]
-key = YOUR_VT_API_KEY
+[VT_API]
+key = YOUR_VT_API_KEY_HERE
 
-[SEVERITY]
-#By default it is set to 3. Set it to your choice.
+[Abuse_API]
+key = YOUR_ABUSE_API_KEY_HERE
+
+
+#VT Severity (by default Set to 3)
+[VT_SEVERITY]
 lvl = 3
+
+#Abuse Severity (by default set to 20%)
+[Abuse_SEVERITY]
+lvl = 20
+
+
+#Time (Should be between 1-365)
+[Abuse_maxAgeInDays]
+days = 90
 ```
 Run your command by:
 ```bash
@@ -42,8 +55,8 @@ Run your command by:
  - [Srijan Kafle](https://www.github.com/srijankafle)
 
 ## What's New?
-- Now has "Option for package manager update".
-- Formatting style can now be picked on user's choice.
-- Provides much cleaner output.
-- Now has the function to separate malicious and clean IPs.
-- Able to define Severity level on config.ini to justify malicious and clean IP. [works on how many engines found it malicious].
+- Integrated AbuseIPDB
+- Now automatically takes only unique IPs from list.
+- With smart technology now able to determine malicious,clean and IPs you need to review.
+- Customisation in your hand : Now you have the power to define the confidence and malicious threshold in Abuse and Virus Total respectively.
+- Able to define the number of days for AbuseIPDB in the configuration file.
