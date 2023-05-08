@@ -26,11 +26,12 @@ File format something like this.
 ```bash
 [API]
 key = YOUR_VT_API_KEY_HERE
-
+```
 Run your command by:
 ```bash
   ./Bee.Automated
 ```
+
 ## Acknowledgements
 
  - [Srijan Kafle](https://www.github.com/srijankafle)
