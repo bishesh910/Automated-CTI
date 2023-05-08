@@ -1,3 +1,4 @@
+
 # Bee.Tools ![Bash Automation](https://img.shields.io/badge/Automation-CTI-green)
 
 NOTE: ONLY WORKS ON DEBIAN (FOR NOW)
@@ -41,7 +42,7 @@ Run your command by:
 
  - [Srijan Kafle](https://www.github.com/srijankafle)
 
-## What's New?
+## What's New? (v1.1)
 - Now has "Option for package manager update".
 - Formatting style can now be picked on user's choice.
 - Provides much cleaner output.
