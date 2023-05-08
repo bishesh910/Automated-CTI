@@ -54,7 +54,7 @@ Run your command by:
 
  - [Srijan Kafle](https://www.github.com/srijankafle)
 
-## What's New?
+## What's New? (v1.2)
 - Integrated AbuseIPDB
 - Now automatically takes only unique IPs from list.
 - With smart technology now able to determine malicious,clean and IPs you need to review.
