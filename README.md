@@ -35,3 +35,5 @@ Run your command by:
 ## Acknowledgements
 
  - [Srijan Kafle](https://www.github.com/srijankafle)
+ 
+ ## (v1.0)
